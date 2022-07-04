@@ -237,10 +237,10 @@ function LandingFrench(props) {
                             <h2>Join our community !</h2>
                             <form onSubmit={openFrench}>
                                 <div className="form-group">
-                                    <input type="text"  placeholder="Enter your full name"/>
+                                    <input type="text"  placeholder="Entrez votre nom"/>
                                 </div>
                                 <div className="form-group">
-                                    <input type="email" onChange={(e)=>{setNewEmail(e.target.value)}} placeholder="Enter your e-mail address"/>
+                                    <input type="email" onChange={(e)=>{setNewEmail(e.target.value)}} placeholder="Entrez votre adress mail"/>
                                 </div>
                                 <div className="form-group">
                                     <input type="submit" value="Submit" />
