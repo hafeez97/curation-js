@@ -188,7 +188,7 @@ function LandingFrench(props) {
                                         <div className="sign-fld">
                                             <form onSubmit={openFrench}>
                                                 <div className="form-group">
-                                                    <input type="email" name="" onChange={(e) => {setNewEmail(e.target.value)} }  placeholder="Enter your mail"/>
+                                                    <input type="email" name="" onChange={(e) => {setNewEmail(e.target.value)} }  placeholder="Entrez votre adress mail"/>
                                                 </div>
                                                 <div className="form-group">
                                                     <input type="submit" value="Share your song" id="sbmt-btn"/>
